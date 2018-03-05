@@ -154,7 +154,7 @@ void MQTTcallbackHandler(AWS_IoT_Client *pClient, char *topicName, uint16_t topi
   {
     Led_Off();
     strcpy(ledstate, "Off");
-    msg_info("LED IS OFF...\n");
+    msg_info("LED IS OFF...IT WORKED\n");
     msg = msg_off;
   }
   
