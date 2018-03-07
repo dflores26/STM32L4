@@ -24012,7 +24012,7 @@ UNINIT_FIXED_LOC
 .iplt           0x08028958        0x0
  .iplt          0x08028958        0x0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.rodata         0x08028958     0xd460
+.rodata         0x08028958     0xd510
                 0x08028958                . = ALIGN (0x8)
  *(.rodata)
  .rodata        0x08028958       0x41 Application/AWS/aws_network_st_wrapper.o
@@ -24124,163 +24124,164 @@ UNINIT_FIXED_LOC
                 0x08031af1      0x1ba Application/Common/wifi_net.o
                                 0x1e3 (size before relaxing)
  .rodata.str1.1
-                0x08031cab       0x13 Application/User/main.o
+                0x08031cab       0xbd Application/User/main.o
  .rodata.str1.1
-                0x08031cbe      0x17b Application/User/vl53l0x_proximity.o
+                0x08031d68      0x17b Application/User/vl53l0x_proximity.o
  .rodata.str1.1
-                0x08031e39      0x437 Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
+                0x08031ee3      0x437 Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
                                 0x453 (size before relaxing)
  .rodata.str1.1
-                0x08032270      0x19c Drivers/BSP/es_wifi.o
+                0x0803231a      0x19c Drivers/BSP/es_wifi.o
                                 0x1ac (size before relaxing)
  .rodata.str1.1
-                0x0803240c        0x5 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
+                0x080324b6        0x5 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
  .rodata.str1.1
-                0x08032411       0x75 Middlewares/Third_Party/MbedTLS/cipher_wrap.o
+                0x080324bb       0x75 Middlewares/Third_Party/MbedTLS/cipher_wrap.o
                                  0x8d (size before relaxing)
  .rodata.str1.1
-                0x08032486       0xb4 Middlewares/Third_Party/MbedTLS/debug.o
+                0x08032530       0xb4 Middlewares/Third_Party/MbedTLS/debug.o
                                  0xb7 (size before relaxing)
  .rodata.str1.1
-                0x0803253a      0x243 Middlewares/Third_Party/MbedTLS/ecp.o
+                0x080325e4      0x243 Middlewares/Third_Party/MbedTLS/ecp.o
  .rodata.str1.1
-                0x0803277d        0x7 Middlewares/Third_Party/MbedTLS/ecp_curves.o
+                0x08032827        0x7 Middlewares/Third_Party/MbedTLS/ecp_curves.o
  .rodata.str1.1
-                0x08032784        0xa Middlewares/Third_Party/MbedTLS/md_wrap.o
+                0x0803282e        0xa Middlewares/Third_Party/MbedTLS/md_wrap.o
                                  0x2f (size before relaxing)
  .rodata.str1.1
-                0x0803278e      0x8a8 Middlewares/Third_Party/MbedTLS/oid.o
+                0x08032838      0x8a8 Middlewares/Third_Party/MbedTLS/oid.o
                                 0x9df (size before relaxing)
  .rodata.str1.1
-                0x08033036       0x17 Middlewares/Third_Party/MbedTLS/pem.o
+                0x080330e0       0x17 Middlewares/Third_Party/MbedTLS/pem.o
  .rodata.str1.1
-                0x0803304d        0xb Middlewares/Third_Party/MbedTLS/pk.o
+                0x080330f7        0xb Middlewares/Third_Party/MbedTLS/pk.o
  .rodata.str1.1
-                0x08033058       0x23 Middlewares/Third_Party/MbedTLS/pk_wrap.o
+                0x08033102       0x23 Middlewares/Third_Party/MbedTLS/pk_wrap.o
                                  0x27 (size before relaxing)
  .rodata.str1.1
-                0x0803307b       0x29 Middlewares/Third_Party/MbedTLS/pkcs5.o
+                0x08033125       0x29 Middlewares/Third_Party/MbedTLS/pkcs5.o
                                  0x37 (size before relaxing)
  .rodata.str1.1
-                0x080330a4      0x14b Middlewares/Third_Party/MbedTLS/pkparse.o
+                0x0803314e      0x14b Middlewares/Third_Party/MbedTLS/pkparse.o
  .rodata.str1.1
-                0x080331ef      0x10f Middlewares/Third_Party/MbedTLS/ripemd160.o
+                0x08033299      0x10f Middlewares/Third_Party/MbedTLS/ripemd160.o
                                 0x120 (size before relaxing)
  .rodata.str1.1
-                0x080332fe      0x1d4 Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
+                0x080333a8      0x1d4 Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
                                 0x1d5 (size before relaxing)
  .rodata.str1.1
-                0x080334d2      0xe99 Middlewares/Third_Party/MbedTLS/ssl_cli.o
+                0x0803357c      0xe99 Middlewares/Third_Party/MbedTLS/ssl_cli.o
                                 0xeaf (size before relaxing)
  .rodata.str1.1
-                0x0803436b      0xf00 Middlewares/Third_Party/MbedTLS/ssl_tls.o
+                0x08034415      0xf00 Middlewares/Third_Party/MbedTLS/ssl_tls.o
                                 0xfa2 (size before relaxing)
  .rodata.str1.1
-                0x0803526b       0x8c Middlewares/Third_Party/MbedTLS/x509.o
+                0x08035315       0x8c Middlewares/Third_Party/MbedTLS/x509.o
                                  0x9e (size before relaxing)
  .rodata.str1.1
-                0x080352f7      0x12b Middlewares/Third_Party/MbedTLS/x509_crl.o
+                0x080353a1      0x12b Middlewares/Third_Party/MbedTLS/x509_crl.o
                                 0x12d (size before relaxing)
  .rodata.str1.1
-                0x08035422      0x6c2 Middlewares/Third_Party/MbedTLS/x509_crt.o
+                0x080354cc      0x6c2 Middlewares/Third_Party/MbedTLS/x509_crt.o
                                 0x70b (size before relaxing)
+ *fill*         0x08035b8e        0x2 
  .rodata._global_impure_ptr
-                0x08035ae4        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-impure.o)
-                0x08035ae4                _global_impure_ptr
+                0x08035b90        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-impure.o)
+                0x08035b90                _global_impure_ptr
  .rodata._vfprintf_r.str1.1
-                0x08035ae8       0x11 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08035b94       0x11 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_float.str1.1
-                0x08035af9       0x10 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08035ba5       0x10 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x08035b09       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08035bb5       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._dtoa_r.str1.1
-                0x08035b2b        0xd c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
+                0x08035bd7        0xd c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
                                   0xf (size before relaxing)
  .rodata.__sf_fake_stderr
-                0x08035b38       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08035b38                __sf_fake_stderr
+                0x08035be4       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08035be4                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x08035b58       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08035b58                __sf_fake_stdin
+                0x08035c04       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08035c04                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x08035b78       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08035b78                __sf_fake_stdout
+                0x08035c24       0x20 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08035c24                __sf_fake_stdout
  .rodata._setlocale_r.str1.1
-                0x08035b98        0x6 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
+                0x08035c44        0x6 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x08035b9e        0x6 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
+                0x08035c4a        0x6 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
                                   0x2 (size before relaxing)
- *fill*         0x08035b9e        0x2 
+ *fill*         0x08035c4a        0x6 
  .rodata.__mprec_bigtens
-                0x08035ba0       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x08035ba0                __mprec_bigtens
+                0x08035c50       0x28 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x08035c50                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08035bc8       0xc8 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x08035bc8                __mprec_tens
+                0x08035c78       0xc8 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x08035c78                __mprec_tens
  .rodata.p05.7170
-                0x08035c90        0xc c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x08035d40        0xc c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.1
-                0x08035c9c       0x11 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08035d4c       0x11 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata.__ssvfscanf_r.str1.1
-                0x08035c9c        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfscanf.o)
+                0x08035d4c        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfscanf.o)
  .rodata._scanf_i.str1.1
-                0x08035c9c       0x12 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x08035d4c       0x12 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata.str1.1
-                0x08035cae        0x6 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x08035d5e        0x6 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_i.o)
                                   0x9 (size before relaxing)
  .rodata._ctype_
-                0x08035cb4      0x101 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-ctype_.o)
-                0x08035cb4                _ctype_
-                0x08035db8                . = ALIGN (0x8)
- *fill*         0x08035db5        0x3 
+                0x08035d64      0x101 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-ctype_.o)
+                0x08035d64                _ctype_
+                0x08035e68                . = ALIGN (0x8)
+ *fill*         0x08035e65        0x3 
 
-.ARM.extab      0x08035db8        0x0
-                0x08035db8                . = ALIGN (0x8)
+.ARM.extab      0x08035e68        0x0
+                0x08035e68                . = ALIGN (0x8)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08035db8                . = ALIGN (0x8)
+                0x08035e68                . = ALIGN (0x8)
 
-.ARM            0x08035db8        0x8
-                0x08035db8                . = ALIGN (0x8)
-                0x08035db8                __exidx_start = .
+.ARM            0x08035e68        0x8
+                0x08035e68                . = ALIGN (0x8)
+                0x08035e68                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08035db8        0x8 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_udivmoddi4.o)
-                0x08035dc0                __exidx_end = .
-                0x08035dc0                . = ALIGN (0x8)
+ .ARM.exidx     0x08035e68        0x8 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_udivmoddi4.o)
+                0x08035e70                __exidx_end = .
+                0x08035e70                . = ALIGN (0x8)
 
-.rel.dyn        0x08035dc0        0x0
- .rel.iplt      0x08035dc0        0x0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.rel.dyn        0x08035e70        0x0
+ .rel.iplt      0x08035e70        0x0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.preinit_array  0x08035dc0        0x0
-                0x08035dc0                . = ALIGN (0x8)
-                0x08035dc0                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08035e70        0x0
+                0x08035e70                . = ALIGN (0x8)
+                0x08035e70                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x08035dc0                PROVIDE (__preinit_array_end, .)
-                0x08035dc0                . = ALIGN (0x8)
+                0x08035e70                PROVIDE (__preinit_array_end, .)
+                0x08035e70                . = ALIGN (0x8)
 
-.init_array     0x08035dc0        0x8
-                0x08035dc0                . = ALIGN (0x8)
-                0x08035dc0                PROVIDE (__init_array_start, .)
+.init_array     0x08035e70        0x8
+                0x08035e70                . = ALIGN (0x8)
+                0x08035e70                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x08035dc0        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
-                0x08035dc4                PROVIDE (__init_array_end, .)
-                0x08035dc8                . = ALIGN (0x8)
- *fill*         0x08035dc4        0x4 
+ .init_array    0x08035e70        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x08035e74                PROVIDE (__init_array_end, .)
+                0x08035e78                . = ALIGN (0x8)
+ *fill*         0x08035e74        0x4 
 
-.fini_array     0x08035dc8        0x8
-                0x08035dc8                . = ALIGN (0x8)
+.fini_array     0x08035e78        0x8
+                0x08035e78                . = ALIGN (0x8)
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08035dc8        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .fini_array    0x08035e78        0x4 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end, .)
-                0x08035dd0                . = ALIGN (0x8)
- *fill*         0x08035dcc        0x4 
-                0x08035dd0                _sidata = LOADADDR (.data)
+                0x08035e80                . = ALIGN (0x8)
+ *fill*         0x08035e7c        0x4 
+                0x08035e80                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x760 load address 0x08035dd0
+.data           0x20000000      0x760 load address 0x08035e80
                 0x20000000                . = ALIGN (0x8)
                 0x20000000                _sdata = .
  *(.data)
@@ -24329,14 +24330,14 @@ UNINIT_FIXED_LOC
                 0x20000760                . = ALIGN (0x8)
                 0x20000760                _edata = .
 
-.jcr            0x20000760        0x0 load address 0x08036530
+.jcr            0x20000760        0x0 load address 0x080365e0
  .jcr           0x20000760        0x0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.igot.plt       0x20000760        0x0 load address 0x08036530
+.igot.plt       0x20000760        0x0 load address 0x080365e0
  .igot.plt      0x20000760        0x0 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x20000760                . = ALIGN (0x4)
 
-.bss            0x20000760      0xa48 load address 0x08036530
+.bss            0x20000760      0xa48 load address 0x080365e0
                 0x20000760                _sbss = .
                 0x20000760                __bss_start__ = _sbss
  *(.bss)
@@ -24388,7 +24389,7 @@ UNINIT_FIXED_LOC
                 0x200011a8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200011a8    0x14000 load address 0x08036530
+                0x200011a8    0x14000 load address 0x080365e0
                 0x200011a8                . = ALIGN (0x8)
                 0x200011a8                PROVIDE (end, .)
                 [!provide]                PROVIDE (_end, .)
@@ -24778,7 +24779,7 @@ UNINIT_FIXED_LOC
                 0x0000267a       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(B-L475E-IOT01.elf elf32-littlearm)
 
-.debug_info     0x00000000    0xca231
+.debug_info     0x00000000    0xca22d
  .debug_info    0x00000000     0x30f8 Application/AWS/aws_network_st_wrapper.o
  .debug_info    0x000030f8     0x3eef Application/AWS/aws_subscribe_publish_sensor_values.o
  .debug_info    0x00006fe7     0x1c68 Application/AWS/aws_timer.o
@@ -24797,93 +24798,93 @@ OUTPUT(B-L475E-IOT01.elf elf32-littlearm)
  .debug_info    0x000255e0     0x1cf6 Application/Common/wifi_net.o
  .debug_info    0x000272d6      0x13a Application/SW4STM32/startup_stm32l475xx.o
  .debug_info    0x00027410      0xfe6 Application/SW4STM32/syscalls.o
- .debug_info    0x000283f6     0x2530 Application/User/main.o
- .debug_info    0x0002a926     0x1dfb Application/User/stm32l4xx_hal_msp.o
- .debug_info    0x0002c721      0xa61 Application/User/stm32l4xx_it.o
- .debug_info    0x0002d182     0x1c12 Application/User/vl53l0x_platform.o
- .debug_info    0x0002ed94     0x1c8c Application/User/vl53l0x_proximity.o
- .debug_info    0x00030a20     0x1975 Application/Wifi/es_wifi_io.o
- .debug_info    0x00032395     0x1b5e Application/Wifi/wifi.o
- .debug_info    0x00033ef3     0x2a09 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.o
- .debug_info    0x000368fc      0xd20 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.o
- .debug_info    0x0003761c      0xd09 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_gyro.o
- .debug_info    0x00038325      0xbb9 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_hsensor.o
- .debug_info    0x00038ede      0xbe5 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_magneto.o
- .debug_info    0x00039ac3      0xbb9 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_psensor.o
- .debug_info    0x0003a67c      0xba1 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.o
- .debug_info    0x0003b21d      0x659 Drivers/BSP/Components/HTS221/hts221.o
- .debug_info    0x0003b876      0x4f3 Drivers/BSP/Components/LIS3MDL/lis3mdl.o
- .debug_info    0x0003bd69      0x511 Drivers/BSP/Components/LPS22HB/lps22hb.o
- .debug_info    0x0003c27a      0x791 Drivers/BSP/Components/LSM6DSL/lsm6dsl.o
- .debug_info    0x0003ca0b     0x54b0 Drivers/BSP/Components/vl53l0x/vl53l0x_api.o
- .debug_info    0x00041ebb     0x2f15 Drivers/BSP/Components/vl53l0x/vl53l0x_api_calibration.o
- .debug_info    0x00044dd0     0x3bfe Drivers/BSP/Components/vl53l0x/vl53l0x_api_core.o
- .debug_info    0x000489ce     0x1932 Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
- .debug_info    0x0004a300     0x3a78 Drivers/BSP/es_wifi.o
- .debug_info    0x0004dd78      0xde9 Drivers/CMSIS/system_stm32l4xx.o
- .debug_info    0x0004eb61     0x130f Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o
- .debug_info    0x0004fe70     0x1701 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o
- .debug_info    0x00051571     0x1003 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o
- .debug_info    0x00052574     0x13ba Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o
- .debug_info    0x0005392e     0x1095 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o
- .debug_info    0x000549c3     0x398d Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o
- .debug_info    0x00058350     0x124e Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o
- .debug_info    0x0005959e     0x12b5 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o
- .debug_info    0x0005a853     0x1595 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o
- .debug_info    0x0005bde8     0x1803 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o
- .debug_info    0x0005d5eb      0xdc7 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.o
- .debug_info    0x0005e3b2     0x1809 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o
- .debug_info    0x0005fbbb     0x2ba8 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o
- .debug_info    0x00062763      0xe9d Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o
- .debug_info    0x00063600     0x2469 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o
- .debug_info    0x00065a69     0x277e Middlewares/Third_Party/AWS/aws_iot_mqtt_client.o
- .debug_info    0x000681e7     0x312f Middlewares/Third_Party/AWS/aws_iot_mqtt_client_common_internal.o
- .debug_info    0x0006b316     0x2fc4 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
- .debug_info    0x0006e2da     0x2eb3 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_publish.o
- .debug_info    0x0007118d     0x2f2d Middlewares/Third_Party/AWS/aws_iot_mqtt_client_subscribe.o
- .debug_info    0x000740ba     0x29e4 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_yield.o
- .debug_info    0x00076a9e     0x11b0 Middlewares/Third_Party/MbedTLS/aes.o
- .debug_info    0x00077c4e     0x11cc Middlewares/Third_Party/MbedTLS/asn1parse.o
- .debug_info    0x00078e1a     0x14c6 Middlewares/Third_Party/MbedTLS/asn1write.o
- .debug_info    0x0007a2e0      0xe46 Middlewares/Third_Party/MbedTLS/base64.o
- .debug_info    0x0007b126     0x4ade Middlewares/Third_Party/MbedTLS/bignum.o
- .debug_info    0x0007fc04     0x18f8 Middlewares/Third_Party/MbedTLS/ccm.o
- .debug_info    0x000814fc     0x183b Middlewares/Third_Party/MbedTLS/cipher.o
- .debug_info    0x00082d37     0x19bd Middlewares/Third_Party/MbedTLS/cipher_wrap.o
- .debug_info    0x000846f4     0x1895 Middlewares/Third_Party/MbedTLS/ctr_drbg.o
- .debug_info    0x00085f89     0x272f Middlewares/Third_Party/MbedTLS/debug.o
- .debug_info    0x000886b8     0x15fd Middlewares/Third_Party/MbedTLS/des.o
- .debug_info    0x00089cb5     0x14cc Middlewares/Third_Party/MbedTLS/ecdh.o
- .debug_info    0x0008b181     0x1ecf Middlewares/Third_Party/MbedTLS/ecdsa.o
- .debug_info    0x0008d050     0x6095 Middlewares/Third_Party/MbedTLS/ecp.o
- .debug_info    0x000930e5     0x4654 Middlewares/Third_Party/MbedTLS/ecp_curves.o
- .debug_info    0x00097739     0x170e Middlewares/Third_Party/MbedTLS/entropy.o
- .debug_info    0x00098e47     0x2149 Middlewares/Third_Party/MbedTLS/gcm.o
- .debug_info    0x0009af90     0x1765 Middlewares/Third_Party/MbedTLS/hmac_drbg.o
- .debug_info    0x0009c6f5     0x1464 Middlewares/Third_Party/MbedTLS/md.o
- .debug_info    0x0009db59     0x107a Middlewares/Third_Party/MbedTLS/md5.o
- .debug_info    0x0009ebd3     0x1bab Middlewares/Third_Party/MbedTLS/md_wrap.o
- .debug_info    0x000a077e     0x18c3 Middlewares/Third_Party/MbedTLS/oid.o
- .debug_info    0x000a2041      0xc26 Middlewares/Third_Party/MbedTLS/pem.o
- .debug_info    0x000a2c67      0xd76 Middlewares/Third_Party/MbedTLS/pk.o
- .debug_info    0x000a39dd     0x1b08 Middlewares/Third_Party/MbedTLS/pk_wrap.o
- .debug_info    0x000a54e5     0x183f Middlewares/Third_Party/MbedTLS/pkcs12.o
- .debug_info    0x000a6d24     0x181b Middlewares/Third_Party/MbedTLS/pkcs5.o
- .debug_info    0x000a853f     0x2989 Middlewares/Third_Party/MbedTLS/pkparse.o
- .debug_info    0x000aaec8      0x974 Middlewares/Third_Party/MbedTLS/platform.o
- .debug_info    0x000ab83c     0x10ca Middlewares/Third_Party/MbedTLS/ripemd160.o
- .debug_info    0x000ac906     0x417a Middlewares/Third_Party/MbedTLS/rsa.o
- .debug_info    0x000b0a80     0x11f8 Middlewares/Third_Party/MbedTLS/sha1.o
- .debug_info    0x000b1c78     0x1284 Middlewares/Third_Party/MbedTLS/sha256.o
- .debug_info    0x000b2efc     0x12df Middlewares/Third_Party/MbedTLS/sha512.o
- .debug_info    0x000b41db      0xef8 Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
- .debug_info    0x000b50d3     0x533e Middlewares/Third_Party/MbedTLS/ssl_cli.o
- .debug_info    0x000ba411     0x80ab Middlewares/Third_Party/MbedTLS/ssl_tls.o
- .debug_info    0x000c24bc     0x235a Middlewares/Third_Party/MbedTLS/x509.o
- .debug_info    0x000c4816     0x1980 Middlewares/Third_Party/MbedTLS/x509_crl.o
- .debug_info    0x000c6196     0x409b Middlewares/Third_Party/MbedTLS/x509_crt.o
+ .debug_info    0x000283f6     0x252c Application/User/main.o
+ .debug_info    0x0002a922     0x1dfb Application/User/stm32l4xx_hal_msp.o
+ .debug_info    0x0002c71d      0xa61 Application/User/stm32l4xx_it.o
+ .debug_info    0x0002d17e     0x1c12 Application/User/vl53l0x_platform.o
+ .debug_info    0x0002ed90     0x1c8c Application/User/vl53l0x_proximity.o
+ .debug_info    0x00030a1c     0x1975 Application/Wifi/es_wifi_io.o
+ .debug_info    0x00032391     0x1b5e Application/Wifi/wifi.o
+ .debug_info    0x00033eef     0x2a09 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.o
+ .debug_info    0x000368f8      0xd20 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.o
+ .debug_info    0x00037618      0xd09 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_gyro.o
+ .debug_info    0x00038321      0xbb9 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_hsensor.o
+ .debug_info    0x00038eda      0xbe5 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_magneto.o
+ .debug_info    0x00039abf      0xbb9 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_psensor.o
+ .debug_info    0x0003a678      0xba1 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.o
+ .debug_info    0x0003b219      0x659 Drivers/BSP/Components/HTS221/hts221.o
+ .debug_info    0x0003b872      0x4f3 Drivers/BSP/Components/LIS3MDL/lis3mdl.o
+ .debug_info    0x0003bd65      0x511 Drivers/BSP/Components/LPS22HB/lps22hb.o
+ .debug_info    0x0003c276      0x791 Drivers/BSP/Components/LSM6DSL/lsm6dsl.o
+ .debug_info    0x0003ca07     0x54b0 Drivers/BSP/Components/vl53l0x/vl53l0x_api.o
+ .debug_info    0x00041eb7     0x2f15 Drivers/BSP/Components/vl53l0x/vl53l0x_api_calibration.o
+ .debug_info    0x00044dcc     0x3bfe Drivers/BSP/Components/vl53l0x/vl53l0x_api_core.o
+ .debug_info    0x000489ca     0x1932 Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
+ .debug_info    0x0004a2fc     0x3a78 Drivers/BSP/es_wifi.o
+ .debug_info    0x0004dd74      0xde9 Drivers/CMSIS/system_stm32l4xx.o
+ .debug_info    0x0004eb5d     0x130f Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o
+ .debug_info    0x0004fe6c     0x1701 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o
+ .debug_info    0x0005156d     0x1003 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o
+ .debug_info    0x00052570     0x13ba Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o
+ .debug_info    0x0005392a     0x1095 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o
+ .debug_info    0x000549bf     0x398d Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o
+ .debug_info    0x0005834c     0x124e Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o
+ .debug_info    0x0005959a     0x12b5 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o
+ .debug_info    0x0005a84f     0x1595 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o
+ .debug_info    0x0005bde4     0x1803 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o
+ .debug_info    0x0005d5e7      0xdc7 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.o
+ .debug_info    0x0005e3ae     0x1809 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o
+ .debug_info    0x0005fbb7     0x2ba8 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o
+ .debug_info    0x0006275f      0xe9d Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o
+ .debug_info    0x000635fc     0x2469 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o
+ .debug_info    0x00065a65     0x277e Middlewares/Third_Party/AWS/aws_iot_mqtt_client.o
+ .debug_info    0x000681e3     0x312f Middlewares/Third_Party/AWS/aws_iot_mqtt_client_common_internal.o
+ .debug_info    0x0006b312     0x2fc4 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
+ .debug_info    0x0006e2d6     0x2eb3 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_publish.o
+ .debug_info    0x00071189     0x2f2d Middlewares/Third_Party/AWS/aws_iot_mqtt_client_subscribe.o
+ .debug_info    0x000740b6     0x29e4 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_yield.o
+ .debug_info    0x00076a9a     0x11b0 Middlewares/Third_Party/MbedTLS/aes.o
+ .debug_info    0x00077c4a     0x11cc Middlewares/Third_Party/MbedTLS/asn1parse.o
+ .debug_info    0x00078e16     0x14c6 Middlewares/Third_Party/MbedTLS/asn1write.o
+ .debug_info    0x0007a2dc      0xe46 Middlewares/Third_Party/MbedTLS/base64.o
+ .debug_info    0x0007b122     0x4ade Middlewares/Third_Party/MbedTLS/bignum.o
+ .debug_info    0x0007fc00     0x18f8 Middlewares/Third_Party/MbedTLS/ccm.o
+ .debug_info    0x000814f8     0x183b Middlewares/Third_Party/MbedTLS/cipher.o
+ .debug_info    0x00082d33     0x19bd Middlewares/Third_Party/MbedTLS/cipher_wrap.o
+ .debug_info    0x000846f0     0x1895 Middlewares/Third_Party/MbedTLS/ctr_drbg.o
+ .debug_info    0x00085f85     0x272f Middlewares/Third_Party/MbedTLS/debug.o
+ .debug_info    0x000886b4     0x15fd Middlewares/Third_Party/MbedTLS/des.o
+ .debug_info    0x00089cb1     0x14cc Middlewares/Third_Party/MbedTLS/ecdh.o
+ .debug_info    0x0008b17d     0x1ecf Middlewares/Third_Party/MbedTLS/ecdsa.o
+ .debug_info    0x0008d04c     0x6095 Middlewares/Third_Party/MbedTLS/ecp.o
+ .debug_info    0x000930e1     0x4654 Middlewares/Third_Party/MbedTLS/ecp_curves.o
+ .debug_info    0x00097735     0x170e Middlewares/Third_Party/MbedTLS/entropy.o
+ .debug_info    0x00098e43     0x2149 Middlewares/Third_Party/MbedTLS/gcm.o
+ .debug_info    0x0009af8c     0x1765 Middlewares/Third_Party/MbedTLS/hmac_drbg.o
+ .debug_info    0x0009c6f1     0x1464 Middlewares/Third_Party/MbedTLS/md.o
+ .debug_info    0x0009db55     0x107a Middlewares/Third_Party/MbedTLS/md5.o
+ .debug_info    0x0009ebcf     0x1bab Middlewares/Third_Party/MbedTLS/md_wrap.o
+ .debug_info    0x000a077a     0x18c3 Middlewares/Third_Party/MbedTLS/oid.o
+ .debug_info    0x000a203d      0xc26 Middlewares/Third_Party/MbedTLS/pem.o
+ .debug_info    0x000a2c63      0xd76 Middlewares/Third_Party/MbedTLS/pk.o
+ .debug_info    0x000a39d9     0x1b08 Middlewares/Third_Party/MbedTLS/pk_wrap.o
+ .debug_info    0x000a54e1     0x183f Middlewares/Third_Party/MbedTLS/pkcs12.o
+ .debug_info    0x000a6d20     0x181b Middlewares/Third_Party/MbedTLS/pkcs5.o
+ .debug_info    0x000a853b     0x2989 Middlewares/Third_Party/MbedTLS/pkparse.o
+ .debug_info    0x000aaec4      0x974 Middlewares/Third_Party/MbedTLS/platform.o
+ .debug_info    0x000ab838     0x10ca Middlewares/Third_Party/MbedTLS/ripemd160.o
+ .debug_info    0x000ac902     0x417a Middlewares/Third_Party/MbedTLS/rsa.o
+ .debug_info    0x000b0a7c     0x11f8 Middlewares/Third_Party/MbedTLS/sha1.o
+ .debug_info    0x000b1c74     0x1284 Middlewares/Third_Party/MbedTLS/sha256.o
+ .debug_info    0x000b2ef8     0x12df Middlewares/Third_Party/MbedTLS/sha512.o
+ .debug_info    0x000b41d7      0xef8 Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
+ .debug_info    0x000b50cf     0x533e Middlewares/Third_Party/MbedTLS/ssl_cli.o
+ .debug_info    0x000ba40d     0x80ab Middlewares/Third_Party/MbedTLS/ssl_tls.o
+ .debug_info    0x000c24b8     0x235a Middlewares/Third_Party/MbedTLS/x509.o
+ .debug_info    0x000c4812     0x1980 Middlewares/Third_Party/MbedTLS/x509_crl.o
+ .debug_info    0x000c6192     0x409b Middlewares/Third_Party/MbedTLS/x509_crt.o
 
-.debug_abbrev   0x00000000    0x16126
+.debug_abbrev   0x00000000    0x16113
  .debug_abbrev  0x00000000      0x434 Application/AWS/aws_network_st_wrapper.o
  .debug_abbrev  0x00000434      0x3a8 Application/AWS/aws_subscribe_publish_sensor_values.o
  .debug_abbrev  0x000007dc      0x304 Application/AWS/aws_timer.o
@@ -24902,91 +24903,91 @@ OUTPUT(B-L475E-IOT01.elf elf32-littlearm)
  .debug_abbrev  0x00003438      0x294 Application/Common/wifi_net.o
  .debug_abbrev  0x000036cc       0x12 Application/SW4STM32/startup_stm32l475xx.o
  .debug_abbrev  0x000036de      0x312 Application/SW4STM32/syscalls.o
- .debug_abbrev  0x000039f0      0x3c3 Application/User/main.o
- .debug_abbrev  0x00003db3      0x279 Application/User/stm32l4xx_hal_msp.o
- .debug_abbrev  0x0000402c      0x23f Application/User/stm32l4xx_it.o
- .debug_abbrev  0x0000426b      0x324 Application/User/vl53l0x_platform.o
- .debug_abbrev  0x0000458f      0x352 Application/User/vl53l0x_proximity.o
- .debug_abbrev  0x000048e1      0x369 Application/Wifi/es_wifi_io.o
- .debug_abbrev  0x00004c4a      0x304 Application/Wifi/wifi.o
- .debug_abbrev  0x00004f4e      0x455 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.o
- .debug_abbrev  0x000053a3      0x277 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.o
- .debug_abbrev  0x0000561a      0x277 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_gyro.o
- .debug_abbrev  0x00005891      0x231 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_hsensor.o
- .debug_abbrev  0x00005ac2      0x25f Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_magneto.o
- .debug_abbrev  0x00005d21      0x231 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_psensor.o
- .debug_abbrev  0x00005f52      0x228 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.o
- .debug_abbrev  0x0000617a      0x177 Drivers/BSP/Components/HTS221/hts221.o
- .debug_abbrev  0x000062f1      0x187 Drivers/BSP/Components/LIS3MDL/lis3mdl.o
- .debug_abbrev  0x00006478      0x1aa Drivers/BSP/Components/LPS22HB/lps22hb.o
- .debug_abbrev  0x00006622      0x1df Drivers/BSP/Components/LSM6DSL/lsm6dsl.o
- .debug_abbrev  0x00006801      0x458 Drivers/BSP/Components/vl53l0x/vl53l0x_api.o
- .debug_abbrev  0x00006c59      0x404 Drivers/BSP/Components/vl53l0x/vl53l0x_api_calibration.o
- .debug_abbrev  0x0000705d      0x4a8 Drivers/BSP/Components/vl53l0x/vl53l0x_api_core.o
- .debug_abbrev  0x00007505      0x35f Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
- .debug_abbrev  0x00007864      0x47e Drivers/BSP/es_wifi.o
- .debug_abbrev  0x00007ce2      0x226 Drivers/CMSIS/system_stm32l4xx.o
- .debug_abbrev  0x00007f08      0x304 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o
- .debug_abbrev  0x0000820c      0x3a9 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o
- .debug_abbrev  0x000085b5      0x3c4 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o
- .debug_abbrev  0x00008979      0x39b Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o
- .debug_abbrev  0x00008d14      0x2a3 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o
- .debug_abbrev  0x00008fb7      0x3f3 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o
- .debug_abbrev  0x000093aa      0x253 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o
- .debug_abbrev  0x000095fd      0x302 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o
- .debug_abbrev  0x000098ff      0x32b Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o
- .debug_abbrev  0x00009c2a      0x327 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o
- .debug_abbrev  0x00009f51      0x334 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.o
- .debug_abbrev  0x0000a285      0x301 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o
- .debug_abbrev  0x0000a586      0x3e8 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o
- .debug_abbrev  0x0000a96e      0x209 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o
- .debug_abbrev  0x0000ab77      0x3e5 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o
- .debug_abbrev  0x0000af5c      0x37c Middlewares/Third_Party/AWS/aws_iot_mqtt_client.o
- .debug_abbrev  0x0000b2d8      0x46e Middlewares/Third_Party/AWS/aws_iot_mqtt_client_common_internal.o
- .debug_abbrev  0x0000b746      0x40b Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
- .debug_abbrev  0x0000bb51      0x430 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_publish.o
- .debug_abbrev  0x0000bf81      0x407 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_subscribe.o
- .debug_abbrev  0x0000c388      0x3bf Middlewares/Third_Party/AWS/aws_iot_mqtt_client_yield.o
- .debug_abbrev  0x0000c747      0x329 Middlewares/Third_Party/MbedTLS/aes.o
- .debug_abbrev  0x0000ca70      0x35d Middlewares/Third_Party/MbedTLS/asn1parse.o
- .debug_abbrev  0x0000cdcd      0x32c Middlewares/Third_Party/MbedTLS/asn1write.o
- .debug_abbrev  0x0000d0f9      0x2ef Middlewares/Third_Party/MbedTLS/base64.o
- .debug_abbrev  0x0000d3e8      0x59c Middlewares/Third_Party/MbedTLS/bignum.o
- .debug_abbrev  0x0000d984      0x3ed Middlewares/Third_Party/MbedTLS/ccm.o
- .debug_abbrev  0x0000dd71      0x455 Middlewares/Third_Party/MbedTLS/cipher.o
- .debug_abbrev  0x0000e1c6      0x32f Middlewares/Third_Party/MbedTLS/cipher_wrap.o
- .debug_abbrev  0x0000e4f5      0x43f Middlewares/Third_Party/MbedTLS/ctr_drbg.o
- .debug_abbrev  0x0000e934      0x439 Middlewares/Third_Party/MbedTLS/debug.o
- .debug_abbrev  0x0000ed6d      0x365 Middlewares/Third_Party/MbedTLS/des.o
- .debug_abbrev  0x0000f0d2      0x336 Middlewares/Third_Party/MbedTLS/ecdh.o
- .debug_abbrev  0x0000f408      0x3c2 Middlewares/Third_Party/MbedTLS/ecdsa.o
- .debug_abbrev  0x0000f7ca      0x51a Middlewares/Third_Party/MbedTLS/ecp.o
- .debug_abbrev  0x0000fce4      0x3eb Middlewares/Third_Party/MbedTLS/ecp_curves.o
- .debug_abbrev  0x000100cf      0x4e0 Middlewares/Third_Party/MbedTLS/entropy.o
- .debug_abbrev  0x000105af      0x4b0 Middlewares/Third_Party/MbedTLS/gcm.o
- .debug_abbrev  0x00010a5f      0x448 Middlewares/Third_Party/MbedTLS/hmac_drbg.o
- .debug_abbrev  0x00010ea7      0x434 Middlewares/Third_Party/MbedTLS/md.o
- .debug_abbrev  0x000112db      0x3a3 Middlewares/Third_Party/MbedTLS/md5.o
- .debug_abbrev  0x0001167e      0x2ea Middlewares/Third_Party/MbedTLS/md_wrap.o
- .debug_abbrev  0x00011968      0x38e Middlewares/Third_Party/MbedTLS/oid.o
- .debug_abbrev  0x00011cf6      0x2d4 Middlewares/Third_Party/MbedTLS/pem.o
- .debug_abbrev  0x00011fca      0x336 Middlewares/Third_Party/MbedTLS/pk.o
- .debug_abbrev  0x00012300      0x390 Middlewares/Third_Party/MbedTLS/pk_wrap.o
- .debug_abbrev  0x00012690      0x3af Middlewares/Third_Party/MbedTLS/pkcs12.o
- .debug_abbrev  0x00012a3f      0x388 Middlewares/Third_Party/MbedTLS/pkcs5.o
- .debug_abbrev  0x00012dc7      0x3b9 Middlewares/Third_Party/MbedTLS/pkparse.o
- .debug_abbrev  0x00013180      0x1d7 Middlewares/Third_Party/MbedTLS/platform.o
- .debug_abbrev  0x00013357      0x3b0 Middlewares/Third_Party/MbedTLS/ripemd160.o
- .debug_abbrev  0x00013707      0x50b Middlewares/Third_Party/MbedTLS/rsa.o
- .debug_abbrev  0x00013c12      0x3d5 Middlewares/Third_Party/MbedTLS/sha1.o
- .debug_abbrev  0x00013fe7      0x3f1 Middlewares/Third_Party/MbedTLS/sha256.o
- .debug_abbrev  0x000143d8      0x3fe Middlewares/Third_Party/MbedTLS/sha512.o
- .debug_abbrev  0x000147d6      0x249 Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
- .debug_abbrev  0x00014a1f      0x40b Middlewares/Third_Party/MbedTLS/ssl_cli.o
- .debug_abbrev  0x00014e2a      0x60e Middlewares/Third_Party/MbedTLS/ssl_tls.o
- .debug_abbrev  0x00015438      0x463 Middlewares/Third_Party/MbedTLS/x509.o
- .debug_abbrev  0x0001589b      0x3d9 Middlewares/Third_Party/MbedTLS/x509_crl.o
- .debug_abbrev  0x00015c74      0x4b2 Middlewares/Third_Party/MbedTLS/x509_crt.o
+ .debug_abbrev  0x000039f0      0x3b0 Application/User/main.o
+ .debug_abbrev  0x00003da0      0x279 Application/User/stm32l4xx_hal_msp.o
+ .debug_abbrev  0x00004019      0x23f Application/User/stm32l4xx_it.o
+ .debug_abbrev  0x00004258      0x324 Application/User/vl53l0x_platform.o
+ .debug_abbrev  0x0000457c      0x352 Application/User/vl53l0x_proximity.o
+ .debug_abbrev  0x000048ce      0x369 Application/Wifi/es_wifi_io.o
+ .debug_abbrev  0x00004c37      0x304 Application/Wifi/wifi.o
+ .debug_abbrev  0x00004f3b      0x455 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.o
+ .debug_abbrev  0x00005390      0x277 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.o
+ .debug_abbrev  0x00005607      0x277 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_gyro.o
+ .debug_abbrev  0x0000587e      0x231 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_hsensor.o
+ .debug_abbrev  0x00005aaf      0x25f Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_magneto.o
+ .debug_abbrev  0x00005d0e      0x231 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_psensor.o
+ .debug_abbrev  0x00005f3f      0x228 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.o
+ .debug_abbrev  0x00006167      0x177 Drivers/BSP/Components/HTS221/hts221.o
+ .debug_abbrev  0x000062de      0x187 Drivers/BSP/Components/LIS3MDL/lis3mdl.o
+ .debug_abbrev  0x00006465      0x1aa Drivers/BSP/Components/LPS22HB/lps22hb.o
+ .debug_abbrev  0x0000660f      0x1df Drivers/BSP/Components/LSM6DSL/lsm6dsl.o
+ .debug_abbrev  0x000067ee      0x458 Drivers/BSP/Components/vl53l0x/vl53l0x_api.o
+ .debug_abbrev  0x00006c46      0x404 Drivers/BSP/Components/vl53l0x/vl53l0x_api_calibration.o
+ .debug_abbrev  0x0000704a      0x4a8 Drivers/BSP/Components/vl53l0x/vl53l0x_api_core.o
+ .debug_abbrev  0x000074f2      0x35f Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
+ .debug_abbrev  0x00007851      0x47e Drivers/BSP/es_wifi.o
+ .debug_abbrev  0x00007ccf      0x226 Drivers/CMSIS/system_stm32l4xx.o
+ .debug_abbrev  0x00007ef5      0x304 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o
+ .debug_abbrev  0x000081f9      0x3a9 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o
+ .debug_abbrev  0x000085a2      0x3c4 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o
+ .debug_abbrev  0x00008966      0x39b Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o
+ .debug_abbrev  0x00008d01      0x2a3 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o
+ .debug_abbrev  0x00008fa4      0x3f3 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o
+ .debug_abbrev  0x00009397      0x253 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o
+ .debug_abbrev  0x000095ea      0x302 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o
+ .debug_abbrev  0x000098ec      0x32b Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o
+ .debug_abbrev  0x00009c17      0x327 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o
+ .debug_abbrev  0x00009f3e      0x334 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.o
+ .debug_abbrev  0x0000a272      0x301 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o
+ .debug_abbrev  0x0000a573      0x3e8 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o
+ .debug_abbrev  0x0000a95b      0x209 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o
+ .debug_abbrev  0x0000ab64      0x3e5 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o
+ .debug_abbrev  0x0000af49      0x37c Middlewares/Third_Party/AWS/aws_iot_mqtt_client.o
+ .debug_abbrev  0x0000b2c5      0x46e Middlewares/Third_Party/AWS/aws_iot_mqtt_client_common_internal.o
+ .debug_abbrev  0x0000b733      0x40b Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
+ .debug_abbrev  0x0000bb3e      0x430 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_publish.o
+ .debug_abbrev  0x0000bf6e      0x407 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_subscribe.o
+ .debug_abbrev  0x0000c375      0x3bf Middlewares/Third_Party/AWS/aws_iot_mqtt_client_yield.o
+ .debug_abbrev  0x0000c734      0x329 Middlewares/Third_Party/MbedTLS/aes.o
+ .debug_abbrev  0x0000ca5d      0x35d Middlewares/Third_Party/MbedTLS/asn1parse.o
+ .debug_abbrev  0x0000cdba      0x32c Middlewares/Third_Party/MbedTLS/asn1write.o
+ .debug_abbrev  0x0000d0e6      0x2ef Middlewares/Third_Party/MbedTLS/base64.o
+ .debug_abbrev  0x0000d3d5      0x59c Middlewares/Third_Party/MbedTLS/bignum.o
+ .debug_abbrev  0x0000d971      0x3ed Middlewares/Third_Party/MbedTLS/ccm.o
+ .debug_abbrev  0x0000dd5e      0x455 Middlewares/Third_Party/MbedTLS/cipher.o
+ .debug_abbrev  0x0000e1b3      0x32f Middlewares/Third_Party/MbedTLS/cipher_wrap.o
+ .debug_abbrev  0x0000e4e2      0x43f Middlewares/Third_Party/MbedTLS/ctr_drbg.o
+ .debug_abbrev  0x0000e921      0x439 Middlewares/Third_Party/MbedTLS/debug.o
+ .debug_abbrev  0x0000ed5a      0x365 Middlewares/Third_Party/MbedTLS/des.o
+ .debug_abbrev  0x0000f0bf      0x336 Middlewares/Third_Party/MbedTLS/ecdh.o
+ .debug_abbrev  0x0000f3f5      0x3c2 Middlewares/Third_Party/MbedTLS/ecdsa.o
+ .debug_abbrev  0x0000f7b7      0x51a Middlewares/Third_Party/MbedTLS/ecp.o
+ .debug_abbrev  0x0000fcd1      0x3eb Middlewares/Third_Party/MbedTLS/ecp_curves.o
+ .debug_abbrev  0x000100bc      0x4e0 Middlewares/Third_Party/MbedTLS/entropy.o
+ .debug_abbrev  0x0001059c      0x4b0 Middlewares/Third_Party/MbedTLS/gcm.o
+ .debug_abbrev  0x00010a4c      0x448 Middlewares/Third_Party/MbedTLS/hmac_drbg.o
+ .debug_abbrev  0x00010e94      0x434 Middlewares/Third_Party/MbedTLS/md.o
+ .debug_abbrev  0x000112c8      0x3a3 Middlewares/Third_Party/MbedTLS/md5.o
+ .debug_abbrev  0x0001166b      0x2ea Middlewares/Third_Party/MbedTLS/md_wrap.o
+ .debug_abbrev  0x00011955      0x38e Middlewares/Third_Party/MbedTLS/oid.o
+ .debug_abbrev  0x00011ce3      0x2d4 Middlewares/Third_Party/MbedTLS/pem.o
+ .debug_abbrev  0x00011fb7      0x336 Middlewares/Third_Party/MbedTLS/pk.o
+ .debug_abbrev  0x000122ed      0x390 Middlewares/Third_Party/MbedTLS/pk_wrap.o
+ .debug_abbrev  0x0001267d      0x3af Middlewares/Third_Party/MbedTLS/pkcs12.o
+ .debug_abbrev  0x00012a2c      0x388 Middlewares/Third_Party/MbedTLS/pkcs5.o
+ .debug_abbrev  0x00012db4      0x3b9 Middlewares/Third_Party/MbedTLS/pkparse.o
+ .debug_abbrev  0x0001316d      0x1d7 Middlewares/Third_Party/MbedTLS/platform.o
+ .debug_abbrev  0x00013344      0x3b0 Middlewares/Third_Party/MbedTLS/ripemd160.o
+ .debug_abbrev  0x000136f4      0x50b Middlewares/Third_Party/MbedTLS/rsa.o
+ .debug_abbrev  0x00013bff      0x3d5 Middlewares/Third_Party/MbedTLS/sha1.o
+ .debug_abbrev  0x00013fd4      0x3f1 Middlewares/Third_Party/MbedTLS/sha256.o
+ .debug_abbrev  0x000143c5      0x3fe Middlewares/Third_Party/MbedTLS/sha512.o
+ .debug_abbrev  0x000147c3      0x249 Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
+ .debug_abbrev  0x00014a0c      0x40b Middlewares/Third_Party/MbedTLS/ssl_cli.o
+ .debug_abbrev  0x00014e17      0x60e Middlewares/Third_Party/MbedTLS/ssl_tls.o
+ .debug_abbrev  0x00015425      0x463 Middlewares/Third_Party/MbedTLS/x509.o
+ .debug_abbrev  0x00015888      0x3d9 Middlewares/Third_Party/MbedTLS/x509_crl.o
+ .debug_abbrev  0x00015c61      0x4b2 Middlewares/Third_Party/MbedTLS/x509_crt.o
 
 .debug_loc      0x00000000    0x5a0f1
  .debug_loc     0x00000000      0xb78 Application/AWS/aws_network_st_wrapper.o
@@ -25665,7 +25666,7 @@ OUTPUT(B-L475E-IOT01.elf elf32-littlearm)
  .debug_macro   0x0003f5dd      0x34f Middlewares/Third_Party/MbedTLS/x509_crl.o
  .debug_macro   0x0003f92c      0x373 Middlewares/Third_Party/MbedTLS/x509_crt.o
 
-.debug_line     0x00000000    0x4c8ab
+.debug_line     0x00000000    0x4c89d
  .debug_line    0x00000000      0xab4 Application/AWS/aws_network_st_wrapper.o
  .debug_line    0x00000ab4     0x13c6 Application/AWS/aws_subscribe_publish_sensor_values.o
  .debug_line    0x00001e7a     0x11a9 Application/AWS/aws_timer.o
@@ -25684,91 +25685,91 @@ OUTPUT(B-L475E-IOT01.elf elf32-littlearm)
  .debug_line    0x0000fbeb     0x111b Application/Common/wifi_net.o
  .debug_line    0x00010d06       0xea Application/SW4STM32/startup_stm32l475xx.o
  .debug_line    0x00010df0      0x619 Application/SW4STM32/syscalls.o
- .debug_line    0x00011409     0x1197 Application/User/main.o
- .debug_line    0x000125a0     0x1095 Application/User/stm32l4xx_hal_msp.o
- .debug_line    0x00013635      0x9f2 Application/User/stm32l4xx_it.o
- .debug_line    0x00014027      0xba7 Application/User/vl53l0x_platform.o
- .debug_line    0x00014bce      0xbba Application/User/vl53l0x_proximity.o
- .debug_line    0x00015788      0xaee Application/Wifi/es_wifi_io.o
- .debug_line    0x00016276      0xc42 Application/Wifi/wifi.o
- .debug_line    0x00016eb8      0xc63 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.o
- .debug_line    0x00017b1b      0xad0 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.o
- .debug_line    0x000185eb      0xac8 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_gyro.o
- .debug_line    0x000190b3      0xab1 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_hsensor.o
- .debug_line    0x00019b64      0xac4 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_magneto.o
- .debug_line    0x0001a628      0xab3 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_psensor.o
- .debug_line    0x0001b0db      0xa98 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.o
- .debug_line    0x0001bb73      0x431 Drivers/BSP/Components/HTS221/hts221.o
- .debug_line    0x0001bfa4      0x41c Drivers/BSP/Components/LIS3MDL/lis3mdl.o
- .debug_line    0x0001c3c0      0x430 Drivers/BSP/Components/LPS22HB/lps22hb.o
- .debug_line    0x0001c7f0      0x490 Drivers/BSP/Components/LSM6DSL/lsm6dsl.o
- .debug_line    0x0001cc80     0x16b4 Drivers/BSP/Components/vl53l0x/vl53l0x_api.o
- .debug_line    0x0001e334      0xf18 Drivers/BSP/Components/vl53l0x/vl53l0x_api_calibration.o
- .debug_line    0x0001f24c     0x1213 Drivers/BSP/Components/vl53l0x/vl53l0x_api_core.o
- .debug_line    0x0002045f      0xb9b Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
- .debug_line    0x00020ffa      0xa85 Drivers/BSP/es_wifi.o
- .debug_line    0x00021a7f      0x9d0 Drivers/CMSIS/system_stm32l4xx.o
- .debug_line    0x0002244f      0xb97 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o
- .debug_line    0x00022fe6      0xb56 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o
- .debug_line    0x00023b3c      0xc26 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o
- .debug_line    0x00024762      0xc1a Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o
- .debug_line    0x0002537c      0xb2a Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o
- .debug_line    0x00025ea6     0x1c49 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o
- .debug_line    0x00027aef      0xa98 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o
- .debug_line    0x00028587      0xcfa Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o
- .debug_line    0x00029281      0xc96 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o
- .debug_line    0x00029f17      0xe1c Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o
- .debug_line    0x0002ad33      0xadd Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.o
- .debug_line    0x0002b810      0xd54 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o
- .debug_line    0x0002c564     0x158f Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o
- .debug_line    0x0002daf3      0x97f Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o
- .debug_line    0x0002e472     0x149c Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o
- .debug_line    0x0002f90e      0xa3b Middlewares/Third_Party/AWS/aws_iot_mqtt_client.o
- .debug_line    0x00030349      0xb55 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_common_internal.o
- .debug_line    0x00030e9e      0xa56 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
- .debug_line    0x000318f4      0xa69 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_publish.o
- .debug_line    0x0003235d      0xa22 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_subscribe.o
- .debug_line    0x00032d7f      0x9d6 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_yield.o
- .debug_line    0x00033755      0xadf Middlewares/Third_Party/MbedTLS/aes.o
- .debug_line    0x00034234      0x82e Middlewares/Third_Party/MbedTLS/asn1parse.o
- .debug_line    0x00034a62      0x8de Middlewares/Third_Party/MbedTLS/asn1write.o
- .debug_line    0x00035340      0x7c8 Middlewares/Third_Party/MbedTLS/base64.o
- .debug_line    0x00035b08     0x136f Middlewares/Third_Party/MbedTLS/bignum.o
- .debug_line    0x00036e77      0x808 Middlewares/Third_Party/MbedTLS/ccm.o
- .debug_line    0x0003767f      0x932 Middlewares/Third_Party/MbedTLS/cipher.o
- .debug_line    0x00037fb1      0x82c Middlewares/Third_Party/MbedTLS/cipher_wrap.o
- .debug_line    0x000387dd      0x8e0 Middlewares/Third_Party/MbedTLS/ctr_drbg.o
- .debug_line    0x000390bd      0x8f2 Middlewares/Third_Party/MbedTLS/debug.o
- .debug_line    0x000399af      0xa07 Middlewares/Third_Party/MbedTLS/des.o
- .debug_line    0x0003a3b6      0x6a9 Middlewares/Third_Party/MbedTLS/ecdh.o
- .debug_line    0x0003aa5f      0x73b Middlewares/Third_Party/MbedTLS/ecdsa.o
- .debug_line    0x0003b19a     0x144b Middlewares/Third_Party/MbedTLS/ecp.o
- .debug_line    0x0003c5e5      0xab1 Middlewares/Third_Party/MbedTLS/ecp_curves.o
- .debug_line    0x0003d096      0x85e Middlewares/Third_Party/MbedTLS/entropy.o
- .debug_line    0x0003d8f4      0x9c1 Middlewares/Third_Party/MbedTLS/gcm.o
- .debug_line    0x0003e2b5      0x833 Middlewares/Third_Party/MbedTLS/hmac_drbg.o
- .debug_line    0x0003eae8      0x8a8 Middlewares/Third_Party/MbedTLS/md.o
- .debug_line    0x0003f390      0x7d9 Middlewares/Third_Party/MbedTLS/md5.o
- .debug_line    0x0003fb69      0x966 Middlewares/Third_Party/MbedTLS/md_wrap.o
- .debug_line    0x000404cf      0x8a8 Middlewares/Third_Party/MbedTLS/oid.o
- .debug_line    0x00040d77      0x72f Middlewares/Third_Party/MbedTLS/pem.o
- .debug_line    0x000414a6      0x725 Middlewares/Third_Party/MbedTLS/pk.o
- .debug_line    0x00041bcb      0x893 Middlewares/Third_Party/MbedTLS/pk_wrap.o
- .debug_line    0x0004245e      0x6f0 Middlewares/Third_Party/MbedTLS/pkcs12.o
- .debug_line    0x00042b4e      0x7d7 Middlewares/Third_Party/MbedTLS/pkcs5.o
- .debug_line    0x00043325      0xa11 Middlewares/Third_Party/MbedTLS/pkparse.o
- .debug_line    0x00043d36      0x61b Middlewares/Third_Party/MbedTLS/platform.o
- .debug_line    0x00044351      0x949 Middlewares/Third_Party/MbedTLS/ripemd160.o
- .debug_line    0x00044c9a      0xe28 Middlewares/Third_Party/MbedTLS/rsa.o
- .debug_line    0x00045ac2      0x94b Middlewares/Third_Party/MbedTLS/sha1.o
- .debug_line    0x0004640d      0x906 Middlewares/Third_Party/MbedTLS/sha256.o
- .debug_line    0x00046d13      0x8b0 Middlewares/Third_Party/MbedTLS/sha512.o
- .debug_line    0x000475c3      0x7aa Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
- .debug_line    0x00047d6d      0xddb Middlewares/Third_Party/MbedTLS/ssl_cli.o
- .debug_line    0x00048b48     0x189a Middlewares/Third_Party/MbedTLS/ssl_tls.o
- .debug_line    0x0004a3e2      0xb02 Middlewares/Third_Party/MbedTLS/x509.o
- .debug_line    0x0004aee4      0x9c9 Middlewares/Third_Party/MbedTLS/x509_crl.o
- .debug_line    0x0004b8ad      0xffe Middlewares/Third_Party/MbedTLS/x509_crt.o
+ .debug_line    0x00011409     0x1189 Application/User/main.o
+ .debug_line    0x00012592     0x1095 Application/User/stm32l4xx_hal_msp.o
+ .debug_line    0x00013627      0x9f2 Application/User/stm32l4xx_it.o
+ .debug_line    0x00014019      0xba7 Application/User/vl53l0x_platform.o
+ .debug_line    0x00014bc0      0xbba Application/User/vl53l0x_proximity.o
+ .debug_line    0x0001577a      0xaee Application/Wifi/es_wifi_io.o
+ .debug_line    0x00016268      0xc42 Application/Wifi/wifi.o
+ .debug_line    0x00016eaa      0xc63 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.o
+ .debug_line    0x00017b0d      0xad0 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_accelero.o
+ .debug_line    0x000185dd      0xac8 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_gyro.o
+ .debug_line    0x000190a5      0xab1 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_hsensor.o
+ .debug_line    0x00019b56      0xac4 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_magneto.o
+ .debug_line    0x0001a61a      0xab3 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_psensor.o
+ .debug_line    0x0001b0cd      0xa98 Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01_tsensor.o
+ .debug_line    0x0001bb65      0x431 Drivers/BSP/Components/HTS221/hts221.o
+ .debug_line    0x0001bf96      0x41c Drivers/BSP/Components/LIS3MDL/lis3mdl.o
+ .debug_line    0x0001c3b2      0x430 Drivers/BSP/Components/LPS22HB/lps22hb.o
+ .debug_line    0x0001c7e2      0x490 Drivers/BSP/Components/LSM6DSL/lsm6dsl.o
+ .debug_line    0x0001cc72     0x16b4 Drivers/BSP/Components/vl53l0x/vl53l0x_api.o
+ .debug_line    0x0001e326      0xf18 Drivers/BSP/Components/vl53l0x/vl53l0x_api_calibration.o
+ .debug_line    0x0001f23e     0x1213 Drivers/BSP/Components/vl53l0x/vl53l0x_api_core.o
+ .debug_line    0x00020451      0xb9b Drivers/BSP/Components/vl53l0x/vl53l0x_api_strings.o
+ .debug_line    0x00020fec      0xa85 Drivers/BSP/es_wifi.o
+ .debug_line    0x00021a71      0x9d0 Drivers/CMSIS/system_stm32l4xx.o
+ .debug_line    0x00022441      0xb97 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.o
+ .debug_line    0x00022fd8      0xb56 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.o
+ .debug_line    0x00023b2e      0xc26 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.o
+ .debug_line    0x00024754      0xc1a Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.o
+ .debug_line    0x0002536e      0xb2a Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.o
+ .debug_line    0x00025e98     0x1c49 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.o
+ .debug_line    0x00027ae1      0xa98 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.o
+ .debug_line    0x00028579      0xcfa Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.o
+ .debug_line    0x00029273      0xc96 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.o
+ .debug_line    0x00029f09      0xe1c Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.o
+ .debug_line    0x0002ad25      0xadd Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.o
+ .debug_line    0x0002b802      0xd54 Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.o
+ .debug_line    0x0002c556     0x158f Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.o
+ .debug_line    0x0002dae5      0x97f Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.o
+ .debug_line    0x0002e464     0x149c Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.o
+ .debug_line    0x0002f900      0xa3b Middlewares/Third_Party/AWS/aws_iot_mqtt_client.o
+ .debug_line    0x0003033b      0xb55 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_common_internal.o
+ .debug_line    0x00030e90      0xa56 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_connect.o
+ .debug_line    0x000318e6      0xa69 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_publish.o
+ .debug_line    0x0003234f      0xa22 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_subscribe.o
+ .debug_line    0x00032d71      0x9d6 Middlewares/Third_Party/AWS/aws_iot_mqtt_client_yield.o
+ .debug_line    0x00033747      0xadf Middlewares/Third_Party/MbedTLS/aes.o
+ .debug_line    0x00034226      0x82e Middlewares/Third_Party/MbedTLS/asn1parse.o
+ .debug_line    0x00034a54      0x8de Middlewares/Third_Party/MbedTLS/asn1write.o
+ .debug_line    0x00035332      0x7c8 Middlewares/Third_Party/MbedTLS/base64.o
+ .debug_line    0x00035afa     0x136f Middlewares/Third_Party/MbedTLS/bignum.o
+ .debug_line    0x00036e69      0x808 Middlewares/Third_Party/MbedTLS/ccm.o
+ .debug_line    0x00037671      0x932 Middlewares/Third_Party/MbedTLS/cipher.o
+ .debug_line    0x00037fa3      0x82c Middlewares/Third_Party/MbedTLS/cipher_wrap.o
+ .debug_line    0x000387cf      0x8e0 Middlewares/Third_Party/MbedTLS/ctr_drbg.o
+ .debug_line    0x000390af      0x8f2 Middlewares/Third_Party/MbedTLS/debug.o
+ .debug_line    0x000399a1      0xa07 Middlewares/Third_Party/MbedTLS/des.o
+ .debug_line    0x0003a3a8      0x6a9 Middlewares/Third_Party/MbedTLS/ecdh.o
+ .debug_line    0x0003aa51      0x73b Middlewares/Third_Party/MbedTLS/ecdsa.o
+ .debug_line    0x0003b18c     0x144b Middlewares/Third_Party/MbedTLS/ecp.o
+ .debug_line    0x0003c5d7      0xab1 Middlewares/Third_Party/MbedTLS/ecp_curves.o
+ .debug_line    0x0003d088      0x85e Middlewares/Third_Party/MbedTLS/entropy.o
+ .debug_line    0x0003d8e6      0x9c1 Middlewares/Third_Party/MbedTLS/gcm.o
+ .debug_line    0x0003e2a7      0x833 Middlewares/Third_Party/MbedTLS/hmac_drbg.o
+ .debug_line    0x0003eada      0x8a8 Middlewares/Third_Party/MbedTLS/md.o
+ .debug_line    0x0003f382      0x7d9 Middlewares/Third_Party/MbedTLS/md5.o
+ .debug_line    0x0003fb5b      0x966 Middlewares/Third_Party/MbedTLS/md_wrap.o
+ .debug_line    0x000404c1      0x8a8 Middlewares/Third_Party/MbedTLS/oid.o
+ .debug_line    0x00040d69      0x72f Middlewares/Third_Party/MbedTLS/pem.o
+ .debug_line    0x00041498      0x725 Middlewares/Third_Party/MbedTLS/pk.o
+ .debug_line    0x00041bbd      0x893 Middlewares/Third_Party/MbedTLS/pk_wrap.o
+ .debug_line    0x00042450      0x6f0 Middlewares/Third_Party/MbedTLS/pkcs12.o
+ .debug_line    0x00042b40      0x7d7 Middlewares/Third_Party/MbedTLS/pkcs5.o
+ .debug_line    0x00043317      0xa11 Middlewares/Third_Party/MbedTLS/pkparse.o
+ .debug_line    0x00043d28      0x61b Middlewares/Third_Party/MbedTLS/platform.o
+ .debug_line    0x00044343      0x949 Middlewares/Third_Party/MbedTLS/ripemd160.o
+ .debug_line    0x00044c8c      0xe28 Middlewares/Third_Party/MbedTLS/rsa.o
+ .debug_line    0x00045ab4      0x94b Middlewares/Third_Party/MbedTLS/sha1.o
+ .debug_line    0x000463ff      0x906 Middlewares/Third_Party/MbedTLS/sha256.o
+ .debug_line    0x00046d05      0x8b0 Middlewares/Third_Party/MbedTLS/sha512.o
+ .debug_line    0x000475b5      0x7aa Middlewares/Third_Party/MbedTLS/ssl_ciphersuites.o
+ .debug_line    0x00047d5f      0xddb Middlewares/Third_Party/MbedTLS/ssl_cli.o
+ .debug_line    0x00048b3a     0x189a Middlewares/Third_Party/MbedTLS/ssl_tls.o
+ .debug_line    0x0004a3d4      0xb02 Middlewares/Third_Party/MbedTLS/x509.o
+ .debug_line    0x0004aed6      0x9c9 Middlewares/Third_Party/MbedTLS/x509_crl.o
+ .debug_line    0x0004b89f      0xffe Middlewares/Third_Party/MbedTLS/x509_crt.o
 
 .debug_str      0x00000000   0x121642
  .debug_str     0x00000000    0x10406 Application/AWS/aws_network_st_wrapper.o
@@ -25806,7 +25807,7 @@ OUTPUT(B-L475E-IOT01.elf elf32-littlearm)
  .debug_str     0x00101cc4     0x1054 Application/SW4STM32/syscalls.o
                                0x7ed8 (size before relaxing)
  .debug_str     0x00102d18      0x796 Application/User/main.o
-                              0xf7c7b (size before relaxing)
+                              0xf7c6e (size before relaxing)
  .debug_str     0x001034ae      0x46f Application/User/stm32l4xx_hal_msp.o
                               0xf785f (size before relaxing)
  .debug_str     0x0010391d      0x173 Application/User/stm32l4xx_it.o
