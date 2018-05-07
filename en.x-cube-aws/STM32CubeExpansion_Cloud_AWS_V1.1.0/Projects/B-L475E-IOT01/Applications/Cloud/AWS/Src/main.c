@@ -105,7 +105,8 @@ int main(void)
   firewall_init();
 #endif
   
-  printf("   *               *\n   *               *\n   *               *\n   *               *\n   Modified 3/7/2018\n   *               *\n   *               *\n   *               *\n   *               *");
+
+  printf("   *               *\n   *               *\n   *               *\n   *               *\n   Modified 5/7/2018\n   *               *\n   *               *\n   *               *\n   *               *");
   cloud_test(0);
 }
 

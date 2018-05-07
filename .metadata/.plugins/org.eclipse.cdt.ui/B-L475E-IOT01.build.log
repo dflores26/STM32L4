@@ -1,6 +1,6 @@
-11:14:33 **** Incremental Build of configuration Debug for project B-L475E-IOT01 ****
+07:33:49 **** Build of configuration Debug for project B-L475E-IOT01 ****
 make all 
 make: Nothing to be done for 'all'.
 
-11:14:34 Build Finished (took 1s.334ms)
+07:33:51 Build Finished (took 1s.436ms)
 
